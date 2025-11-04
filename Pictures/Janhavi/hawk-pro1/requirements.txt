@@ -8,7 +8,11 @@ joblib
 paho-mqtt
 cryptography
 pyjwt
-web3
+#web3
 pytest
-keras
-tensorflow
+#keras
+#tensorflow
+python-dotenv
+elasticsearch # For connecting to Elasticsearch later
+azure-identity
+azure-mgmt-network
