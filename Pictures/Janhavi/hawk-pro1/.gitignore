@@ -1,0 +1,19 @@
+# Ignore virtual environments
+.tf-env/
+.venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large model or dataset files
+*.h5
+*.pkl
+*.joblib
+*.csv
+*.zip
+
+# Ignore system files
+.DS_Store
+Thumbs.db

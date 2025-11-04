@@ -1,0 +1,10 @@
+id: isolate_node
+steps:
+  - type: command
+    params:
+      action: "quarantine"
+      target: "{node_id}"
+  - type: notify
+    params:
+      channel: "ops"
+      message: "Node {node_id} quarantined"

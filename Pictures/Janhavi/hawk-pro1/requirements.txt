@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+pandas
+scikit-learn
+joblib
+paho-mqtt
+cryptography
+pyjwt
+web3
+pytest
+keras
+tensorflow

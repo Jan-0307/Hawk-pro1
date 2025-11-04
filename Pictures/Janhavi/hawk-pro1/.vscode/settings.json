@@ -1,0 +1,20 @@
+{
+  // Point VS Code to the Python environment you want to use
+  "python.defaultInterpreterPath": "C:\\Users\\Janhavi\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+
+  // Let Pylance find packages like tensorflow.keras
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.extraPaths": [
+    "C:\\Users\\Janhavi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages",
+    "C:\\Users\\Janhavi\\Pictures\\Janhavi\\Hawkgrid project\\.venv\\Lib\\site-packages"
+  ],
+
+  // If you are using a local .venv in the project, uncomment this:
+  // "python.venvPath": "${workspaceFolder}",
+
+  // Optional: make Pylance less noisy
+  "python.analysis.diagnosticMode": "workspace"
+
+
+}
